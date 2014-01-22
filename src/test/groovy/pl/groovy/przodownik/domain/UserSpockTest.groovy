@@ -28,7 +28,7 @@ class UserSpock extends Specification {
             
             expect:
             userGroovy == userGroovyCopy
-            userGroovyCopy  <=> userGroovyOther
+            userGroovyCopy  != userGroovyOther
         }
         
         
