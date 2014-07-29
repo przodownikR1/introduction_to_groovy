@@ -15,8 +15,8 @@ import groovy.transform.Canonical;
  */
 @Canonical
 class UserGroovy {
- String firstName
- String lastName
- int age;
+   String firstName
+   String lastName
+   int age;
  
 }

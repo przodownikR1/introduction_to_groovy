@@ -63,10 +63,9 @@ dependencies {
     compile ("org.springframework:spring-context:${springVersion}")
     compile ("org.springframework:spring-orm:${springVersion}")
     compile ("org.springframework:spring-tx:${springVersion}")
-    testCompile ("org.springframework:spring-test:${springVersion}")
-
+    testCompile ("org.springframework:spring-test:${springVersion}") 
     compile ("org.springframework.data:spring-data-jpa:${springDataJPAVersion}")
-
+    
     compile ("javax.validation:validation-api:${javaxValidationVersion}")
     compile ("org.hibernate:hibernate-validator:${hibernateValidatorVersion}")
     compile ("org.hibernate:hibernate-core:${hibernateVersion}")
